@@ -20,7 +20,7 @@ void parse_blacks() {
 		} else if (c == '\n') {
 			buf[i] = '\0';
 			i = 0;
-			fprintf(sqlfile, "INSERT INTO black_cards VALUES (%d, '%s', 0, %d, NULL);\n", ++id, buf, picks/4);
+			fprintf(sqlfile, "INSERT INTO black_cards VALUES (%d, '%s', 0, %d, NULL);\n", ++id, buf, (picks == 0 ? 1 : picks/4));
 			fprintf(sqlfile, "INSERT INTO card_set_black_card VALUES (1000000, %d);\n", id);
 			picks = 0;
 		} else if (c == '_') {
