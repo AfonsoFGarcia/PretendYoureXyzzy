@@ -118,7 +118,7 @@ to, for instance, display the number of connected players.
   <li>Reloading the page when the winning card is displayed does not display the winning card
   again.</li>
   <li>Played cards seem to blank when someone joins or leaves. You may have to refresh the page
-  to see the cards again if you're the Card Czar.</li>
+  to see the cards again if you're the César das Cartas.</li>
 </ul>
 <p>Current limitations:</p>
 <ul>

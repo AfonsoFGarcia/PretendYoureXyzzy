@@ -18,7 +18,7 @@ cah.$.GamePlayerStatus_msg['sp'] = "Playing";
 cah.$.GamePlayerStatus_msg['sv'] = "Spectator";
 cah.$.GamePlayerStatus_msg['sh'] = "Host";
 cah.$.GamePlayerStatus_msg['sw'] = "Winner!";
-cah.$.GamePlayerStatus_msg['sj'] = "Card Czar";
+cah.$.GamePlayerStatus_msg['sj'] = "César das Cartas";
 cah.$.GamePlayerStatus_msg['sjj'] = "Selecting";
 cah.$.GamePlayerStatus_msg['si'] = "";
 cah.$.GamePlayerStatus_msg_2 = {};
@@ -26,7 +26,7 @@ cah.$.GamePlayerStatus_msg_2['sp'] = "Select a card to play.";
 cah.$.GamePlayerStatus_msg_2['sv'] = "You are just spectating.";
 cah.$.GamePlayerStatus_msg_2['sh'] = "Wait for players then click Start Game.";
 cah.$.GamePlayerStatus_msg_2['sw'] = "You have won!";
-cah.$.GamePlayerStatus_msg_2['sj'] = "You are the Card Czar.";
+cah.$.GamePlayerStatus_msg_2['sj'] = "You are the Cesar das Cartas.";
 cah.$.GamePlayerStatus_msg_2['sjj'] = "Select a winning card.";
 cah.$.GamePlayerStatus_msg_2['si'] = "Waiting for players...";
 
@@ -344,4 +344,3 @@ cah.$.DisconnectReason.PING_TIMEOUT = "pt";
 cah.$.DisconnectReason.KICKED = "k";
 cah.$.DisconnectReason.MANUAL = "man";
 cah.$.DisconnectReason.IDLE_TIMEOUT = "it";
-

@@ -14142,7 +14142,7 @@ INSERT INTO white_cards VALUES (15329, 'Caleb Denecour.', 'RT');
 INSERT INTO white_cards VALUES (15330, 'Monty Oum.', 'RT');
 INSERT INTO white_cards VALUES (15331, 'The league of being a big faggot.', 'DAH');
 INSERT INTO white_cards VALUES (15332, 'GaLm''s sunglasses.', 'DAH');
-INSERT INTO white_cards VALUES (15333, 'The Card Czar.', 'DAH');
+INSERT INTO white_cards VALUES (15333, 'The César das Cartas.', 'DAH');
 INSERT INTO white_cards VALUES (15334, 'Inside Shrek''s asshole.', 'DAH');
 INSERT INTO white_cards VALUES (15335, 'Solving a rubiks cube with your bare nipples.', 'DAH');
 INSERT INTO white_cards VALUES (15336, 'A canoe with enough room for Phil.', 'DAH');

@@ -490,7 +490,7 @@ cah.Game.prototype.removeCardFromHand = function(card) {
  */
 cah.Game.prototype.removeAllCards = function() {
   var handCount = this.hand_.length;
-  for (var i = 0; i < handCount; i++) {
+  for ( var i = 0; i < handCount; i++) {
     this.removeCardFromHand(this.hand_[0]);
   }
   this.handSelectedCard_ = null;
@@ -1052,8 +1052,9 @@ cah.Game.prototype.reshuffle = function(deck) {
  *          data Event data from the server.
  */
 cah.Game.prototype.judgeLeft = function(data) {
-  cah.log.status_with_game(this,
-      "The Card Czar has left the game. Cards played this round are being returned to hands.");
+  cah.log
+      .status_with_game(this,
+          "The César das Cartas has left the game. Cards played this round are being returned to hands.");
   cah.log.status_with_game(this, "The next round will begin in "
       + (data[cah.$.LongPollResponse.INTERMISSION] / 1000) + " seconds.");
   cah.log.status_with_game(this, "(Displayed state will look weird until the next round.)");
@@ -1063,8 +1064,9 @@ cah.Game.prototype.judgeLeft = function(data) {
  * The judge was skipped for taking too long.
  */
 cah.Game.prototype.judgeSkipped = function() {
-  cah.log.status_with_game(this, "The Card Czar has taken too long to decide and has been skipped."
-      + " Cards played this round are being returned to hands.");
+  cah.log.status_with_game(this,
+      "The César das Cartas has taken too long to decide and has been skipped."
+          + " Cards played this round are being returned to hands.");
 };
 
 /**
@@ -1472,7 +1474,7 @@ cah.Game.prototype.optionChanged_ = function(e) {
 
   var selectedCardSets = $(".card_sets :checked", this.optionsElement_);
   var cardSetIds = [];
-  for (var i = 0; i < selectedCardSets.length; i++) {
+  for ( var i = 0; i < selectedCardSets.length; i++) {
     cardSetIds.push(selectedCardSets[i].value);
   }
   var options = {};
