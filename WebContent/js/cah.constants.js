@@ -26,7 +26,7 @@ cah.$.GamePlayerStatus_msg_2['sp'] = "Select a card to play.";
 cah.$.GamePlayerStatus_msg_2['sv'] = "You are just spectating.";
 cah.$.GamePlayerStatus_msg_2['sh'] = "Wait for players then click Start Game.";
 cah.$.GamePlayerStatus_msg_2['sw'] = "You have won!";
-cah.$.GamePlayerStatus_msg_2['sj'] = "You are the Cesar das Cartas.";
+cah.$.GamePlayerStatus_msg_2['sj'] = "You are the César das Cartas.";
 cah.$.GamePlayerStatus_msg_2['sjj'] = "Select a winning card.";
 cah.$.GamePlayerStatus_msg_2['si'] = "Waiting for players...";
 
