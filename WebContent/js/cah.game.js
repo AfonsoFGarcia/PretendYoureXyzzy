@@ -1580,7 +1580,7 @@ cah.GameScorePanel.prototype.update = function(score, status) {
     $(".scorecard_points", this.element_).removeClass("hide");
     $(this.element_).attr(
         "aria-label",
-        this.player_ + " has " + score + " Awesome Point" + (score == 1 ? "" : "s") + ". "
+        this.player_ + " has " + score + " Pintelho" + (score == 1 ? "" : "s") + ". "
             + cah.$.GamePlayerStatus_msg[status]);
   }
 };
