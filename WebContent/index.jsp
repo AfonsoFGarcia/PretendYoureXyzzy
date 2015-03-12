@@ -136,7 +136,7 @@ to, for instance, display the number of connected players.
       for now.</li>
 	  </ul>
   </li>
-  <li>You can't bet Awesome Points to play another card, and I am unsure if I will add this.</li>
+  <li>You can't bet Pintelhos to play another card, and I am unsure if I will add this.</li>
 </ul>
 <p>Future enhancements:</p>
 <ul>
